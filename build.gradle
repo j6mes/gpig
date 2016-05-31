@@ -5,6 +5,16 @@ apply plugin: 'java'
 
 sourceCompatibility = 1.8
 
+repositories {
+    mavenCentral()
+    maven {
+        url 'http://m2.j6mes.co/'
+    }
+    maven {
+        url "http://clojars.org/repo/"
+    }
+}
+
 
 dependencies {
     runtime 'co.j6mes.infra.srf:service-registration-framework:1.0.1.8'
