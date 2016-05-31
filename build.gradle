@@ -22,7 +22,7 @@ dependencies {
     runtime 'gpig.group2:decision-engine:1.0.5'
     runtime 'gpig.group2:alerts-ui:1.0.12'
     runtime 'gpig.group2:image-ui:1.0.10'
-    runtime 'gpig.group2:maps-server:1.1.4'
+    runtime 'gpig.group2:maps-server:1.1.5'
     runtime 'gpig.group2:interop-receiver:1.0.3'
 }
 
