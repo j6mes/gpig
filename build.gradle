@@ -2,51 +2,8 @@ group 'gpig.group2.release'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'com.bmuschko.tomcat'
 
 sourceCompatibility = 1.8
-
-buildscript {
-    repositories {
-        jcenter()
-    }
-
-    dependencies {
-        classpath 'com.bmuschko:gradle-tomcat-plugin:2.2.4'
-    }
-}
-
-repositories {
-    mavenCentral()
-    maven {
-        url 'http://m2.j6mes.co/'
-    }
-    maven {
-        url "http://clojars.org/repo/"
-    }
-}
-
-
-tomcat {
-    httpPort = 8090
-    httpsPort = 8091
-    enableSSL = true
-    contextPath = 'sample-app'
-
-    users {
-        user {
-            username = 'user1'
-            password = '123456'
-            roles = ['developers', 'admin']
-        }
-
-        user {
-            username = 'user2'
-            password = 'abcdef'
-            roles = ['manager']
-        }
-    }
-}
 
 
 dependencies {
