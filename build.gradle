@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
     runtime 'co.j6mes.infra.srf:service-registration-framework:1.0.1.8'
-    runtime 'gpig.group2:drone-control-system:1.0.3'
+    runtime 'gpig.group2:drone-control-system:1.0.4'
     runtime 'gpig.group2:decision-engine:1.0.6'
     runtime 'gpig.group2:alerts-ui:1.0.13'
     runtime 'gpig.group2:image-ui:1.0.12'
