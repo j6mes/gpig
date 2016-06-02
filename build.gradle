@@ -20,10 +20,10 @@ dependencies {
     runtime 'co.j6mes.infra.srf:service-registration-framework:1.0.1.8'
     runtime 'gpig.group2:drone-control-system:1.0.7'
     runtime 'gpig.group2:decision-engine:1.0.6'
-    runtime 'gpig.group2:alerts-ui:1.0.13'
-    runtime 'gpig.group2:image-ui:1.1.19'
+    runtime 'gpig.group2:alerts-ui:1.0.14'
+    runtime 'gpig.group2:image-ui:1.1.22'
     runtime 'gpig.group2:maps-server:1.2.12'
-    runtime 'gpig.group2:interop-receiver:1.0.4'
+    runtime 'gpig.group2:interop-receiver:1.0.7'
 }
 
 
